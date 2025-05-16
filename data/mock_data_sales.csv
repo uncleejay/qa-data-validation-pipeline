@@ -1,0 +1,6 @@
+customer_id,sales_amount,region
+123,250,Europe
+124,,Europe
+125,300,Asia
+123,250,Europe
+126,-50,North America
