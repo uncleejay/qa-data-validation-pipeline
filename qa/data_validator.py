@@ -19,3 +19,14 @@ def check_business_rules(df):
         if not rule_func(df):
             failed[rule_name] = False
     return failed
+
+def clean_data(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Cleans the input DataFrame by:
+    - Removing rows where 'sales_amount' is not positive.
+    - Removing duplicate rows.
+    """
+    if 'sales_amount' in df.columns:
+        df = df[df['sales_amount'] > 0]
+    df = df.drop_duplicates()
+    return df
