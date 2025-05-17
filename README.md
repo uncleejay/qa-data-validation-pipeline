@@ -1,6 +1,6 @@
 # QA Data Validation Pipeline
 
-A robust data validation framework designed to process and validate customer sales data from CSV files. This pipeline performs schema validation, enforces business rules, and implements data cleaning operations to ensure data quality and consistency.
+A data validation framework designed to process and validate customer sales data from CSV files. This pipeline performs schema validation, enforces business rules, and implements data cleaning operations to ensure data quality and consistency.
 
 ## Features
 
